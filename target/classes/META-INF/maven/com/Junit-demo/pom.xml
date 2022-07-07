@@ -5,23 +5,44 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Junit-Demo</name>
   <description>Junit demo project</description>
-  <dependencies>
-		  <dependency>
-		    <groupId>org.junit.jupiter</groupId>
-		    <artifactId>junit-jupiter-api</artifactId>
-		    <version>5.8.2</version>
-		    <scope>test</scope>
-		</dependency>
-		
+  <url>https://github.com/Abhayarav/OSSRH-82434</url>
+  
+  <licenses>
+  <license>
+    <name>The Apache License, Version 2.0</name>
+    <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+  </license>
+</licenses>
+
+<developers>
+	<developer>
+      <name>Abhay Kumar</name>
+      <email>abhayarav07@gmail.com</email>
+      <organization>com</organization>
+      <organizationUrl>https://github.com/Abhayarav/OSSRH-82434</organizationUrl>
+    </developer>
+</developers>
+
+<scm>
+  <connection>scm:git:git://github.com/Abhayarav/OSSRH-82434.git</connection>
+  <developerConnection>scm:git:ssh://github.com/Abhayarav/OSSRH-82434.git</developerConnection>
+  <url>http://github.com/Abhayarav/OSSRH-82434</url>
+</scm>
+
+<dependencies>
 	<dependency>
-    <groupId>org.junit.jupiter</groupId>
-    <artifactId>junit-jupiter-engine</artifactId>
-    <version>5.8.2</version>
-    <scope>test</scope>
-</dependency>
-		
-		  
-  </dependencies>
+		<groupId>org.junit.jupiter</groupId>
+		<artifactId>junit-jupiter-api</artifactId>
+	    <version>5.8.2</version>
+	    <scope>test</scope>
+	</dependency>
+	<dependency>
+	    <groupId>org.junit.jupiter</groupId>
+	    <artifactId>junit-jupiter-engine</artifactId>
+	    <version>5.8.2</version>
+	    <scope>test</scope>
+	</dependency>		  
+</dependencies>
 
   
 </project>
